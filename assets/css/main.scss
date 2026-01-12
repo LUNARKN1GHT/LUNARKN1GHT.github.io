@@ -5,5 +5,55 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
+$primary-color: #2f6fed;
+$link-color: #2f6fed;
+$link-color-hover: #1c4fd7;
+//$accent-color: #ff6b35;
+$accent-color: #00bfa6;
+
 @import "minimal-mistakes"; // main partials
+
+/* 全站默认字体 */
+body {
+  font-family: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+/* 正文内容更加易读 */
+.page__content,
+.archive__item-excerpt {
+  font-family: "Source Serif 4", "Noto Serif SC", "Songti SC", "SimSun", Georgia, Serif;
+}
+
+/* 正文呼吸感 */
+.page__content {
+  line-height: 1.8;
+}
+
+/* 标题加粗 */
+.page__title,
+.site-title {
+  font-family: "Poppins", "Inter", sans-serif;
+}
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+.archive__item{
+  transition: transform 0.2s ease;
+}
+
+.archive__item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* 导航栏轻量化 */
+.nav__list a {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
