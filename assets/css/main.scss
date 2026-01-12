@@ -17,12 +17,14 @@ $accent-color: #00bfa6;
 /* 全站默认字体 */
 body {
   font-family: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-size: 0.8rem; // 减小默认字体大小
 }
 
 /* 正文内容更加易读 */
 .page__content,
 .archive__item-excerpt {
-  font-family: "Source Serif 4", "Noto Serif SC", "Songti SC", "SimSun", Georgia, Serif;
+  font-family: "Source Serif 4", "Noto Serif SC", "Songti SC", "SimSun", Georgia, Serif, serif;
+  font-size: 0.85rem; // 适当减小正文内容字体
 }
 
 /* 正文呼吸感 */
@@ -34,9 +36,24 @@ body {
 .page__title,
 .site-title {
   font-family: "Poppins", "Inter", sans-serif;
+  font-size: 1.8rem; // 减小页面标题字体
 }
+
 h1, h2, h3 {
   font-weight: 600;
+}
+
+// 针对主页内容的字体大小调整
+.page__content h1 {
+  font-size: 1.6rem;
+}
+
+.page__content h2 {
+  font-size: 1.4rem;
+}
+
+.page__content h3 {
+  font-size: 1.2rem;
 }
 
 a {
