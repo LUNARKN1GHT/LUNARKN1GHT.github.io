@@ -2,6 +2,8 @@
 title: "笔记"
 permalink: /notes/
 layout: single
+lang: zh
+author_profile: true # 启用作者资料侧边栏
 ---
 
 # 笔记
