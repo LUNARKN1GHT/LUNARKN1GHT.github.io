@@ -2,21 +2,35 @@
 main:
   - title: "关于"
     url: /about/
+    en_title: "About"
+    en_url: /en/about/
 
   - title: "笔记"
     url: /notes/
+    en_title: "Notes"
+    en_url: /en/notes/
 
   - title: "CV"
     url: /cv/
+    en_title: "CV"
+    en_url: /en/cv/
 
   - title: "项目"
     url: /projects/
+    en_title: "Projects"
+    en_url: /en/projects/
 
   - title: "代码"
     url: /code/
+    en_title: "Code"
+    en_url: /en/code/
 
   - title: "链接"
     url: /links/
+    en_title: "Links"
+    en_url: /en/links/
 
   - title: "Blogs"
     url: /blogs/
+    en_title: "Blogs"
+    en_url: /en/blogs/

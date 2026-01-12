@@ -240,6 +240,32 @@
         </li>
       {% endif %}
 
+      <li>
+        <div class="language-switch">
+          {% if page.lang == "zh" %}
+          <!-- 如果当前是中文页面，生成英文链接 -->
+          {% assign en_url = page.url | prepend: '/en' %}
+          {% if page.url == '/' %}
+          {% assign en_url = '/en/' %}
+          {% endif %}
+          <a href="{{ en_url }}">English Version</a>
+          {% elsif page.lang == "en" %}
+          <!-- 如果当前是英文页面，生成中文链接 -->
+          {% assign zh_url = page.url | replace: '/en', '' %}
+          {% if page.url == '/en/' %}
+          {% assign zh_url = '/' %}
+          {% endif %}
+          <a href="{{ zh_url }}">中文版本</a>
+          {% else %}
+          <!-- 默认情况，假设是中文 -->
+          {% assign en_url = page.url | prepend: '/en' %}
+          {% if page.url == '/' %}
+          {% assign en_url = '/en/' %}
+          {% endif %}
+          <a href="{{ en_url }}">English Version</a>
+          {% endif %}
+        </div>
+      </li>
       {% include author-profile-custom-links.html %}
     </ul>
   </div>

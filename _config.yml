@@ -16,6 +16,8 @@ minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"
 
 # Site Settings
 locale: "zh-CN" # 修改默认语言为中文
+language: "zh" # 默认语言为中文
+languages: [ "zh", "en" ] # 可以使用英文和中文
 rtl: # true, false (default) # turns direction of the page into right to left for RTL languages
 title: "李亦凡的个人主页"
 title_separator: "-"
@@ -229,7 +231,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:path/:basename:output_ext
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 

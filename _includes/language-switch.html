@@ -1,0 +1,7 @@
+<div class="language-switch">
+  {% if page.lang == "zh" %}
+  <a href="{{ page.permalink | replace: '/', '/en/' }}">English</a>
+  {% elsif page.lang == "en" %}
+  <a href="{{ page.permalink | remove: '/en' }}">中文</a>
+  {% endif %}
+</div>
