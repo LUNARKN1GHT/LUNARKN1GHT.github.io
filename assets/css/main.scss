@@ -74,3 +74,110 @@ a {
   font-weight: 500;
   letter-spacing: 0.04em;
 }
+
+/* 悬停波纹效果 */
+.ripple-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple-effect::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.ripple-effect:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* 渐入动画 */
+.fade-in {
+  animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 悬停缩放效果 */
+.scale-hover {
+  transition: transform 0.3s ease;
+}
+
+.scale-hover:hover {
+  transform: scale(1.05);
+}
+
+/* 文字颜色变化动画 */
+.text-gradient {
+  background: linear-gradient(45deg, #2f6fed, #00bfa6, #ff6b35);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* 滚动动画效果 */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-reveal.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 背景光晕效果 */
+.glowing-border {
+  position: relative;
+  box-shadow: 0 0 15px rgba(47, 111, 237, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.glowing-border:hover {
+  box-shadow: 0 0 25px rgba(47, 111, 237, 0.6);
+}
+
+/* 闪烁效果 */
+.blinking {
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0.4; }
+}
+
+/* 摇摆效果 */
+.swing {
+  transition: transform 0.2s ease;
+}
+
+.swing:hover {
+  transform: rotate(5deg);
+}
