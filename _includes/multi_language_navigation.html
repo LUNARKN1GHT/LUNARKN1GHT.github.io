@@ -1,0 +1,21 @@
+{% comment %} 多语言导航组件 {% endcomment %}
+{% assign nav_items = site.data.navigation.main %}
+{% assign current_lang = page.lang | default: "zh" %}
+
+<ul class="visible-links">
+  {% for item in nav_items %}
+  <li class="masthead__menu-item">
+    {% if current_lang == "en" %}
+    <a href="{{ item.en_url | relative_url }}"
+       {% if item.en_url == page.url or item.en_url == page.url | replace: '/en', '' %}class="active"{% endif %}>
+    {{ item.en_title }}
+    </a>
+    {% else %}
+    <a href="{{ item.url | relative_url }}"
+       {% if item.url == page.url %}class="active"{% endif %}>
+      {{ item.title }}
+    </a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

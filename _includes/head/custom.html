@@ -9,3 +9,45 @@
   href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+SC:wght@400;500;700&display=swap"
   rel="stylesheet">
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // 根据当前页面语言更新导航栏
+    const path = window.location.pathname;
+    const isEnglishPage = path.startsWith('/en/');
+
+    // 获取导航数据
+    const navData = [
+      {zh_url: '/about/', en_url: '/en/about/', zh_text: '关于', en_text: 'About'},
+      {zh_url: '/notes/', en_url: '/en/notes/', zh_text: '笔记', en_text: 'Notes'},
+      {zh_url: '/cv/', en_url: '/en/cv/', zh_text: 'CV', en_text: 'CV'},
+      {zh_url: '/projects/', en_url: '/en/projects/', zh_text: '项目', en_text: 'Projects'},
+      {zh_url: '/code/', en_url: '/en/code/', zh_text: '代码', en_text: 'Code'},
+      {zh_url: '/links/', en_url: '/en/links/', zh_text: '链接', en_text: 'Links'},
+      {zh_url: '/blogs/', en_url: '/en/blogs/', zh_text: 'Blogs', en_text: 'Blogs'}
+    ];
+
+    // 更新导航链接和文本
+    const navLinks = document.querySelectorAll('#site-nav .visible-links a');
+
+    navLinks.forEach(function (link) {
+      const currentHref = link.getAttribute('href');
+
+      navData.forEach(function (item) {
+        if (isEnglishPage) {
+          // 如果当前是英文页面，将中文链接替换为英文链接和文本
+          if (currentHref === item.zh_url) {
+            link.setAttribute('href', item.en_url);
+            link.textContent = item.en_text;
+          }
+        } else {
+          // 如果当前是中文页面，将英文链接替换为中文链接和文本
+          if (currentHref === item.en_url) {
+            link.setAttribute('href', item.zh_url);
+            link.textContent = item.zh_text;
+          }
+        }
+      });
+    });
+  });
+</script>
+
