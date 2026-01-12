@@ -10,18 +10,18 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en-US"
+locale: "zh-CN" # 修改默认语言为中文
 rtl: # true, false (default) # turns direction of the page into right to left for RTL languages
 title: "李亦凡的个人主页"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "Your Name"
-description: "An amazing website."
+name: "李亦凡"
+description: "Yifan LEE's Personal Website"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,11 +113,12 @@ analytics:
 
 # Site Author
 author:
-  name: "Your Name"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
-  email:
+  name: "李亦凡"
+  avatar: /assets/images/ez-HeadPhoto.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "悟已往之不谏<br>知来者之可追"
+  location: "安徽 合肥"
+  email: "lyf0402@mail.ustc.edu.cn"
+  github: "github.com/LUNARKN1GHT"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
