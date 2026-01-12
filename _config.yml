@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
+theme: "minima"
+#remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -116,9 +116,12 @@ analytics:
 # Site Author
 author:
   name: "李亦凡"
+  name_en: "Yifan Lee"
   avatar: /assets/images/ez-HeadPhoto.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "悟已往之不谏<br>知来者之可追"
+  bio_en: "Learn from past mistakes<br>Make efforts for the future"
   location: "安徽 合肥"
+  loaction_en: "Hefei Anhui"
   email: "lyf0402@mail.ustc.edu.cn"
   github: "github.com/LUNARKN1GHT"
   links:
