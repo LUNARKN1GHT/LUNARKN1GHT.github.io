@@ -1,23 +1,17 @@
 ---
 layout: single
-title: "Yifan Lee's Homepage"
 permalink: /en/
 lang: en
 author_profile: true # 启用作者资料侧边栏
 ---
 
-This is my homepage where you can see my: XXX
+# Hi, I'm Yifan Li
 
-## About Me
+I am currently studying statistics at the School of Management, University of Science and Technology of China.
 
-Here is a brief introduction
+My interests mainly lie at the intersection of statistics and computer science, including artificial intelligence and
+technologies related to quantitative trading.
 
-## My Projects
+## News
 
-- Project 1
-- Project 2
-
-## My Notes
-
-- Note 1
-- Note 2
+- **January 2026**: Started my personal website project and built the overall site framework.
