@@ -10,7 +10,7 @@ main:
     en_title: "Notes"
     en_url: /en/notes/
 
-  - title: "CV"
+  - title: "简历"
     url: /cv/
     en_title: "CV"
     en_url: /en/cv/
@@ -30,7 +30,7 @@ main:
     en_title: "Links"
     en_url: /en/links/
 
-  - title: "Blogs"
+  - title: "博客"
     url: /blogs/
     en_title: "Blogs"
     en_url: /en/blogs/
