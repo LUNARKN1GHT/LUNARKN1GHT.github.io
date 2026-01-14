@@ -5,26 +5,52 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == empty %}
-          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}"
+                                                                  alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
+          {% assign current_lang = page.lang | default: site.language | default: "zh" %}
+          {% if current_lang == "en" %}
+          {{ site.en_title | default: site.title | escape_once | strip }}
+          {% else %}
           {{ site.masthead_title | default: site.title | escape_once | strip }}
-          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}</span>{% endif %}
+          {% endif %}
+          {% if site.subtitle %}
+          <span class="site-subtitle">
+              {% if current_lang == "en" %}
+                {{ site.en_subtitle | default: site.subtitle | escape_once | strip }}
+              {% else %}
+                {{ site.subtitle | escape_once | strip }}
+              {% endif %}
+            </span>
+          {% endif %}
         </a>
         <ul class="visible-links">
+          {%- assign current_lang = page.lang | default: site.language | default: "zh" -%}
           {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <a
-                href="{{ link.url | relative_url }}"
-                {% if link.description %} title="{{ link.description }}"{% endif %}
-                {% if link.target %} target="{{ link.target }}"{% endif %}
-              >{{ link.title }}</a>
-            </li>
+          <li class="masthead__menu-item">
+            <a
+              {% if current_lang== "en" %}
+            href="{{ link.en_url | relative_url }}"
+            {% else %}
+            href="{{ link.url | relative_url }}"
+            {% endif %}
+            {% if link.description %} title="{{ link.description }}"{% endif %}
+            {% if link.target %} target="{{ link.target }}"{% endif %}
+            >
+            {% if current_lang == "en" %}
+            {{ link.en_title | default: link.title }}
+            {% else %}
+            {{ link.title }}
+            {% endif %}
+            </a>
+          </li>
           {%- endfor -%}
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <span
+            class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
           <i class="fas fa-search"></i>
         </button>
         {% endif %}

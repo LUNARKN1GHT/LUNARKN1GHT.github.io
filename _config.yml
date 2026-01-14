@@ -20,10 +20,13 @@ locale: "zh-CN" # 修改默认语言为中文
 language: "zh" # 默认语言为中文
 languages: [ "zh", "en" ] # 可以使用英文和中文
 rtl: # true, false (default) # turns direction of the page into right to left for RTL languages
-title: "李亦凡的个人主页"
+title: "Yifan LEE"
+en_title: "Yifan LEE"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
+en_subtitle: # 英文标题
 name: "李亦凡"
+en_name: "Yifan LEE"
 description: "Yifan LEE's Personal Website"
 url: "https://LUNARKN1GHT.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -122,7 +125,7 @@ author:
   bio: "悟已往之不谏<br>知来者之可追"
   bio_en: "Learn from past mistakes<br>Make efforts for the future"
   location: "安徽 合肥"
-  loaction_en: "Hefei Anhui"
+  location_en: "Hefei Anhui"
   email: "lyf0402@mail.ustc.edu.cn"
   github: "github.com/LUNARKN1GHT"
   links:
