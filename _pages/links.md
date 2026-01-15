@@ -13,6 +13,7 @@ author_profile: true # 启用作者资料侧边栏
 
 - [USTC数学课考卷合集](https://ustcmathexam.github.io/)
 - [USTC物理课考卷合集](https://ustcphyexam.github.io/)
+- [USTC评课社区](https://icourse.club/) - USTC各门课程的评价网站，也是课程资料分享站点。
 
 ## 工具网站
 
