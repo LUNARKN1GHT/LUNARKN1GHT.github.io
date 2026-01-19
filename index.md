@@ -1,10 +1,9 @@
 ---
 layout: single
+title: 你好，我是李亦凡
 lang: zh
 author_profile: true # 启用作者资料侧边栏
 ---
-
-# 你好，我是李亦凡
 
 目前就读于中国科学技术大学管理学院统计系，主修统计学。
 

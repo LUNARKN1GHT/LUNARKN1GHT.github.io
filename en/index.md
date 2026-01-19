@@ -1,11 +1,10 @@
 ---
 layout: single
+title: Hi, I'm Yifan Li
 permalink: /en/
 lang: en
 author_profile: true # 启用作者资料侧边栏
 ---
-
-# Hi, I'm Yifan Li
 
 I am currently studying statistics at the School of Management, University of Science and Technology of China.
 
