@@ -40,3 +40,14 @@ courses. Updates will be made appropriately based on actual usage.
 
 🔗 **Project Repository**:
 [https://github.com/LUNARKN1GHT/Math-NoteBook](https://github.com/LUNARKN1GHT/Math-NoteBook)
+
+## R
+
+This repository contains my code and notes from the course *Applied Statistical Software*, which primarily focuses on
+statistical analysis and programming using *R*.
+
+The purpose of this repository is to systematically document my learning process, code implementations, and related
+insights throughout the course.
+
+🔗 **Project Repository**:
+[https://github.com/LUNARKN1GHT/R](https://github.com/LUNARKN1GHT/R)

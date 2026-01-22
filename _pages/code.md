@@ -32,3 +32,12 @@ toc: true
 
 🔗 **项目仓库**：
 [https://github.com/LUNARKN1GHT/Math-NoteBook](https://github.com/LUNARKN1GHT/Math-NoteBook)
+
+## R
+
+这是我在学习《实用统计软件》这门课的过程中整理的代码和笔记。本课程主要使用 **R语言** 进行统计分析与编程实践。
+
+本仓库用于系统地记录我的学习过程、代码实现和相关心得体会。
+
+🔗 **项目仓库**：
+[https://github.com/LUNARKN1GHT/R](https://github.com/LUNARKN1GHT/R)
