@@ -22,3 +22,13 @@ toc: true
 
 🔗 **项目仓库**：
 [https://github.com/LUNARKN1GHT/My-RPG-Game](https://github.com/LUNARKN1GHT/My-RPG-Game)
+
+## Math-NoteBook
+
+这是一个简洁的数学笔记本模板，便于我在后续的各门课程中使用统一的模板整理课程笔记。后续会根据实际使用情况进行适当更新。
+
+- 新定义一些常用的命令，比如 $\mathbb{R}, \, \mathbb{N}$等。
+- 给不同定理环境设置不同的色块，让笔记色彩丰富的同时便于辨识内容。
+
+🔗 **项目仓库**：
+[https://github.com/LUNARKN1GHT/Math-NoteBook](https://github.com/LUNARKN1GHT/Math-NoteBook)

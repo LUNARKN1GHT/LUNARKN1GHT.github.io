@@ -28,3 +28,15 @@ Key features of the project include:
 
 🔗 **Repository**:  
 [https://github.com/LUNARKN1GHT/My-RPG-Game](https://github.com/LUNARKN1GHT/My-RPG-Game)
+
+## Math-NoteBook
+
+This is a clean math notebook template that allows me to use a unified format for organizing course notes in my future
+courses. Updates will be made appropriately based on actual usage.
+
+- Define some commonly used commands, such as $\mathbb{R}, \, \mathbb{N}$, etc.
+- Set different color blocks for different theorem environments, making the notes colorful while facilitating content
+  identification.
+
+🔗 **Project Repository**:
+[https://github.com/LUNARKN1GHT/Math-NoteBook](https://github.com/LUNARKN1GHT/Math-NoteBook)
