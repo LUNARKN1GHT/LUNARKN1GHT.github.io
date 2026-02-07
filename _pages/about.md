@@ -29,7 +29,7 @@ toc: true # 启用目录
 
 - **数学与统计**：概率论、数学分析、线性代数
 - **计算机课程**：数据结构、C语言程序设计
-- **编程语言**：Python、C/C++、SQL
+- **编程语言**：Python、C/C++、R、SQL
 - **工具与框架**：NumPy, Pandas, PyTorch, LaTeX, Markdown, Git, Jupyter
 
 ## 项目与实践

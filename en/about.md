@@ -32,7 +32,7 @@ topics, including but not limited to:
 
 - **Mathematics & Statistics**: Probability Theory, Mathematical Analysis, Linear Algebra
 - **Computer Science**: Data Structures, C Programming
-- **Programming Languages**: Python, C/C++, SQL
+- **Programming Languages**: Python, C/C++, R, SQL
 - **Tools & Frameworks**: NumPy, Pandas, PyTorch, LaTeX, Markdown, Git, Jupyter
 
 ## Projects & Experience
