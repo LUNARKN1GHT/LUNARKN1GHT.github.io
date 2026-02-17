@@ -62,3 +62,17 @@ A data analytics tool designed to analyze NBA player performance using game-leve
 
 🔗 Project Repository:
 [https://github.com/LUNARKN1GHT/NBA-Analytics](https://github.com/LUNARKN1GHT/NBA-Analytics)
+
+## My-Quant-Project
+
+A quantitative trading research and strategy analysis toolkit (for educational and research purposes only — not intended
+for live trading).
+
+- Uses `yfinance` to download and manage financial market data
+- Implements common technical indicators and builds basic trading strategies
+- Integrates machine learning models to explore data-driven trading approaches
+- Develops a backtesting framework to evaluate strategy performance and generate reports
+- Supports portfolio construction and asset allocation analysis
+
+🔗 Project Repository:
+[https://github.com/LUNARKN1GHT/My-Quant-Project](https://github.com/LUNARKN1GHT/My-Quant-Project)

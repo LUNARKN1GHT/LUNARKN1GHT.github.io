@@ -3,6 +3,7 @@
 ## 2026-02-17
 
 - 增加 `NBA-Analytics` 项目介绍
+- 增加 `My-Quant-Project` 项目介绍
 
 ## 2026-02-08
 

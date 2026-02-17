@@ -52,3 +52,16 @@ toc: true
 
 🔗 **项目仓库**：
 [https://github.com/LUNARKN1GHT/NBA-Analytics](https://github.com/LUNARKN1GHT/NBA-Analytics)
+
+My-Quant-Project
+
+这是一个用于量化交易研究与策略分析的工具（仅供学习与研究使用，请勿用于实盘交易）。
+
+- 使用 `yfinance` 下载并管理金融市场数据
+- 实现常见技术指标计算，并构建基础交易策略
+- 接入机器学习模型，探索基于数据驱动的交易方法
+- 构建回测框架，对策略表现进行评估并生成回测报告
+- 支持组合构建与资产配置分析
+
+🔗 项目仓库：
+[https://github.com/LUNARKN1GHT/My-Quant-Project](https://github.com/LUNARKN1GHT/My-Quant-Project)
