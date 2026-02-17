@@ -41,3 +41,14 @@ toc: true
 
 🔗 **项目仓库**：
 [https://github.com/LUNARKN1GHT/R](https://github.com/LUNARKN1GHT/R)
+
+## NBA-Analytics
+
+这是一个用于分析 NBA 球员比赛数据的数据分析工具
+
+- 利用 `nba_api` 自动下载数据并存入 `.sqlite` 数据库。
+- 通过 SQL 查询数据库数据，并集合 pandas 进行高效的数据处理与计算。
+- 构建进阶统计指标模型，用于分析球员在关键时刻等情境下的表现。
+
+🔗 **项目仓库**：
+[https://github.com/LUNARKN1GHT/NBA-Analytics](https://github.com/LUNARKN1GHT/NBA-Analytics)

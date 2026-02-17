@@ -51,3 +51,14 @@ insights throughout the course.
 
 🔗 **Project Repository**:
 [https://github.com/LUNARKN1GHT/R](https://github.com/LUNARKN1GHT/R)
+
+## NBA-Analytics
+
+A data analytics tool designed to analyze NBA player performance using game-level data.
+
+- Uses nba_api to automatically download game data and store it in a .sqlite database
+- Retrieves data via SQL queries and leverages pandas for efficient processing and computation
+- Builds advanced metrics and models to evaluate performance in clutch situations and other game contexts
+
+🔗 Project Repository:
+[https://github.com/LUNARKN1GHT/NBA-Analytics](https://github.com/LUNARKN1GHT/NBA-Analytics)
