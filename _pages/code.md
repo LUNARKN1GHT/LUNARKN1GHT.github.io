@@ -66,6 +66,8 @@ toc: true
 
 ## My-Quant-Project
 
+> 该项目已被 Quant-Lab 替代。详细内容请参考 Quant-Lab
+
 这是一个用于量化交易研究与策略分析的工具（仅供学习与研究使用，请勿用于实盘交易）。
 
 - 使用 `yfinance` 下载并管理金融市场数据

@@ -41,8 +41,7 @@ Key features of the project include:
 - Emphasizing modular decoupling and long-term extensibility
 - Serving as a structured practice example of a medium-to-large-scale C++ project
 
-🔗 **Repository**:  
-[https://github.com/LUNARKN1GHT/My-RPG-Game](https://github.com/LUNARKN1GHT/My-RPG-Game)
+🔗 **Repository**: [https://github.com/LUNARKN1GHT/My-RPG-Game](https://github.com/LUNARKN1GHT/My-RPG-Game)
 
 ## Math-NoteBook
 
@@ -53,8 +52,7 @@ courses. Updates will be made appropriately based on actual usage.
 - Set different color blocks for different theorem environments, making the notes colorful while facilitating content
   identification.
 
-🔗 **Project Repository**:
-[https://github.com/LUNARKN1GHT/Math-NoteBook](https://github.com/LUNARKN1GHT/Math-NoteBook)
+🔗 **Project Repository**: [https://github.com/LUNARKN1GHT/Math-NoteBook](https://github.com/LUNARKN1GHT/Math-NoteBook)
 
 ## R
 
@@ -64,8 +62,7 @@ statistical analysis and programming using *R*.
 The purpose of this repository is to systematically document my learning process, code implementations, and related
 insights throughout the course.
 
-🔗 **Project Repository**:
-[https://github.com/LUNARKN1GHT/R](https://github.com/LUNARKN1GHT/R)
+🔗 **Project Repository**: [https://github.com/LUNARKN1GHT/R](https://github.com/LUNARKN1GHT/R)
 
 ## NBA-Analytics
 
@@ -75,10 +72,11 @@ A data analytics tool designed to analyze NBA player performance using game-leve
 - Retrieves data via SQL queries and leverages pandas for efficient processing and computation
 - Builds advanced metrics and models to evaluate performance in clutch situations and other game contexts
 
-🔗 Project Repository:
-[https://github.com/LUNARKN1GHT/NBA-Analytics](https://github.com/LUNARKN1GHT/NBA-Analytics)
+🔗 Project Repository: [https://github.com/LUNARKN1GHT/NBA-Analytics](https://github.com/LUNARKN1GHT/NBA-Analytics)
 
 ## My-Quant-Project
+
+> This project has been replaced by Quant-Lab.
 
 A quantitative trading research and strategy analysis toolkit (for educational and research purposes only — not intended
 for live trading).
@@ -89,5 +87,4 @@ for live trading).
 - Develops a backtesting framework to evaluate strategy performance and generate reports
 - Supports portfolio construction and asset allocation analysis
 
-🔗 Project Repository:
-[https://github.com/LUNARKN1GHT/My-Quant-Project](https://github.com/LUNARKN1GHT/My-Quant-Project)
+🔗 Project Repository: [https://github.com/LUNARKN1GHT/My-Quant-Project](https://github.com/LUNARKN1GHT/My-Quant-Project)
