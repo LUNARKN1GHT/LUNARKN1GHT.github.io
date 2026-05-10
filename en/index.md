@@ -3,6 +3,7 @@ layout: single
 title: Hi, I'm Yifan Li
 permalink: /en/
 lang: en
+ref: home
 author_profile: true # 启用作者资料侧边栏
 ---
 

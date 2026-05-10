@@ -3,6 +3,7 @@ title: "笔记"
 permalink: /notes/
 layout: single
 lang: zh
+ref: notes
 author_profile: true # 启用作者资料侧边栏
 toc: true # 启用页面目录
 ---

@@ -3,6 +3,7 @@ title: "Projects"
 permalink: /en/projects/
 layout: single
 lang: en
+ref: projects
 author_profile: true
 toc: true
 ---

@@ -3,6 +3,7 @@ title: "代码"
 permalink: /code/
 layout: single
 lang: zh
+ref: code
 author_profile: true # 启用作者资料侧边栏
 toc: true
 ---

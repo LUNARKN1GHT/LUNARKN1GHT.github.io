@@ -3,6 +3,7 @@ title: "Links"
 permalink: /en/links/
 layout: single
 lang: en
+ref: links
 author_profile: true
 ---
 

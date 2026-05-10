@@ -2,6 +2,7 @@
 layout: single
 title: 你好，我是李亦凡
 lang: zh
+ref: home
 author_profile: true # 启用作者资料侧边栏
 ---
 

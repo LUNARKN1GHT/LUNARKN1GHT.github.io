@@ -3,6 +3,7 @@ title: "Code"
 permalink: /en/code/
 layout: single
 lang: en
+ref: code
 author_profile: true
 toc: true
 ---

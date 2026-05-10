@@ -3,6 +3,7 @@ title: "简历"
 permalink: /cv/
 layout: single
 lang: zh
+ref: cv
 author_profile: true # 启用作者资料侧边栏
 ---
 

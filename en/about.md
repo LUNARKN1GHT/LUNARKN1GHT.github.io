@@ -3,6 +3,7 @@ title: "About"
 permalink: /en/about/
 layout: single
 lang: en
+ref: about
 author_profile: true
 toc: true
 ---

@@ -3,6 +3,7 @@ title: "Notes"
 permalink: /en/notes/
 layout: single
 lang: en
+ref: notes
 author_profile: true
 toc: true
 ---

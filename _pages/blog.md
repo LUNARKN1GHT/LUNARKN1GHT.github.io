@@ -4,6 +4,7 @@ layout: archive
 permalink: /blogs/
 author_profile: true
 lang: zh
+ref: blog
 pagination:
   enabled: true
   collection: posts

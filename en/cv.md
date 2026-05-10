@@ -3,6 +3,7 @@ title: "Curriculum Vitae"
 permalink: /en/cv/
 layout: single
 lang: en
+ref: cv
 author_profile: true
 ---
 

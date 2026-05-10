@@ -3,6 +3,7 @@ title: "关于"
 permalink: /about/
 layout: single
 lang: zh
+ref: about
 author_profile: true # 启用作者资料侧边栏
 toc: true # 启用目录
 ---
