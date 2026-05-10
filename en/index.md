@@ -14,4 +14,5 @@ technologies related to quantitative trading.
 
 ## News
 
+- **May 2026**: Started a College Student Innovation Training Program project titled *Originality Measurement and Regularization Mechanisms for LLM-Generated Alpha Factors Based on Multi-Dimensional Similarity*.
 - **January 2026**: Started my personal website project and built the overall site framework.
