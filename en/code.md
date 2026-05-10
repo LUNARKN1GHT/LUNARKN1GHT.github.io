@@ -14,6 +14,20 @@ course-related exercises, and small personal projects.
 All source code is publicly available in my GitHub repositories.  
 Discussions and feedback are always welcome.
 
+## Quant-Lab
+
+A personal quantitative research platform for Chinese A-share markets, covering the full pipeline from data acquisition to factor research, strategy backtesting, risk analysis, and visualization.
+
+- 15+ technical and fundamental factors with IC/ICIR evaluation and quintile stratification backtesting
+- Statistical arbitrage via cointegration testing, OU process fitting, Kalman filtering, and PCA-based basket strategies
+- Market-neutral portfolio construction with Beta and sector neutrality
+- 10-page Streamlit dashboard covering market conditions, factor analysis, backtesting, and portfolio management
+- Tech stack: Python · AKShare · DuckDB · scikit-learn · Streamlit · Plotly
+
+For educational and research purposes only — not investment advice.
+
+🔗 **Repository**: [Quant-Lab](https://github.com/LUNARKN1GHT/Quant-Lab)
+
 ## My-RPG-Game
 
 **My-RPG-Game** is a practice project developed while learning **C++** and **object-oriented programming (OOP)**.  
