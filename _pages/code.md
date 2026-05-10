@@ -35,8 +35,7 @@ toc: true
 - 关注模块解耦与后续可扩展性
 - 作为中大型 C++ 项目的结构化实践示例
 
-🔗 **项目仓库**：
-[https://github.com/LUNARKN1GHT/My-RPG-Game](https://github.com/LUNARKN1GHT/My-RPG-Game)
+🔗 **项目仓库**：[https://github.com/LUNARKN1GHT/My-RPG-Game](https://github.com/LUNARKN1GHT/My-RPG-Game)
 
 ## Math-NoteBook
 
@@ -45,8 +44,7 @@ toc: true
 - 新定义一些常用的命令，比如 $\mathbb{R}, \, \mathbb{N}$等。
 - 给不同定理环境设置不同的色块，让笔记色彩丰富的同时便于辨识内容。
 
-🔗 **项目仓库**：
-[https://github.com/LUNARKN1GHT/Math-NoteBook](https://github.com/LUNARKN1GHT/Math-NoteBook)
+🔗 **项目仓库**：[https://github.com/LUNARKN1GHT/Math-NoteBook](https://github.com/LUNARKN1GHT/Math-NoteBook)
 
 ## R
 
@@ -54,8 +52,7 @@ toc: true
 
 本仓库用于系统地记录我的学习过程、代码实现和相关心得体会。
 
-🔗 **项目仓库**：
-[https://github.com/LUNARKN1GHT/R](https://github.com/LUNARKN1GHT/R)
+🔗 **项目仓库**：[https://github.com/LUNARKN1GHT/R](https://github.com/LUNARKN1GHT/R)
 
 ## NBA-Analytics
 
@@ -65,10 +62,9 @@ toc: true
 - 通过 SQL 查询数据库数据，并集合 pandas 进行高效的数据处理与计算。
 - 构建进阶统计指标模型，用于分析球员在关键时刻等情境下的表现。
 
-🔗 **项目仓库**：
-[https://github.com/LUNARKN1GHT/NBA-Analytics](https://github.com/LUNARKN1GHT/NBA-Analytics)
+🔗 **项目仓库**：[https://github.com/LUNARKN1GHT/NBA-Analytics](https://github.com/LUNARKN1GHT/NBA-Analytics)
 
-My-Quant-Project
+## My-Quant-Project
 
 这是一个用于量化交易研究与策略分析的工具（仅供学习与研究使用，请勿用于实盘交易）。
 
