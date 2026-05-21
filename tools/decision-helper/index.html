@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>DecisionHelper</title>
+    <link rel="stylesheet" href="./src/style.css"/>
+    <link rel="stylesheet" href="./src/app.css"/>
+</head>
+<body>
+<div id="app">
+
+    <!-- 决策列表页 -->
+    <div id="view-list" class="view">
+        <header class="app-header">
+            <h1 class="app-title">DecisionHelper</h1>
+            <div class="header-actions">
+                <button id="btn-settings" class="btn btn-ghost" title="AI 设置">⚙</button>
+                <button id="btn-new-decision" class="btn btn-primary">+ 新建决策</button>
+            </div>
+        </header>
+        <div id="decision-list" class="decision-list"></div>
+        <div id="empty-state" class="empty-state hidden">
+            <p>还没有任何决策</p>
+            <p class="hint">点击右上角「新建决策」开始</p>
+        </div>
+    </div>
+
+    <!-- 决策编辑页（选项 + 标准） -->
+    <div id="view-edit" class="view hidden">
+        <header class="app-header">
+            <button class="btn btn-ghost" id="btn-back-list">← 返回</button>
+            <h2 id="edit-title" class="view-title" contenteditable="true" spellcheck="false"></h2>
+            <div class="header-actions">
+                <button class="btn btn-secondary" id="btn-go-score">评分矩阵</button>
+                <button class="btn btn-primary" id="btn-go-results">查看结果</button>
+            </div>
+        </header>
+
+        <div class="edit-columns">
+            <!-- 选项列 -->
+            <section class="panel">
+                <h3 class="panel-title">选项</h3>
+                <div id="options-list" class="tag-list"></div>
+                <div class="add-row">
+                    <input id="input-option" class="input" type="text" placeholder="输入选项名称"/>
+                    <button id="btn-add-option" class="btn btn-primary">添加</button>
+                </div>
+            </section>
+
+            <!-- 标准列 -->
+            <section class="panel">
+                <div class="panel-title-row">
+                    <h3 class="panel-title">评价标准</h3>
+                    <button id="btn-ai-criteria" class="btn btn-ai">✦ AI 建议标准</button>
+                </div>
+                <div id="criteria-list" class="criteria-list"></div>
+                <!-- AI 标准建议面板 -->
+                <div id="ai-criteria-panel" class="ai-panel hidden"></div>
+                <div class="add-row">
+                    <input id="input-criterion-name" class="input" type="text" placeholder="标准名称"/>
+                    <select id="input-criterion-weight" class="select">
+                        <option value="1">权重 1</option>
+                        <option value="2">权重 2</option>
+                        <option value="3" selected>权重 3</option>
+                        <option value="4">权重 4</option>
+                        <option value="5">权重 5</option>
+                    </select>
+                    <button id="btn-add-criterion" class="btn btn-primary">添加</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- 评分矩阵页 -->
+    <div id="view-score" class="view hidden">
+        <header class="app-header">
+            <button class="btn btn-ghost" id="btn-back-edit">← 返回编辑</button>
+            <h2 id="score-title" class="view-title"></h2>
+            <div class="header-actions">
+                <button id="btn-ai-scores" class="btn btn-ai">✦ AI 辅助评分</button>
+                <button class="btn btn-primary" id="btn-score-results">查看结果</button>
+            </div>
+        </header>
+        <!-- AI 评分说明面板 -->
+        <div id="ai-scores-panel" class="ai-panel hidden" style="margin:0 20px 4px"></div>
+        <div class="table-wrap">
+            <table id="score-table" class="score-table"></table>
+        </div>
+    </div>
+
+    <!-- 结果页 -->
+    <div id="view-results" class="view hidden">
+        <header class="app-header">
+            <button class="btn btn-ghost" id="btn-back-score">← 返回评分</button>
+            <h2 id="results-title" class="view-title"></h2>
+            <button id="btn-ai-analyze" class="btn btn-ai">✦ AI 分析</button>
+        </header>
+        <div id="results-list" class="results-list"></div>
+        <div id="ai-analysis-panel" class="ai-analysis-panel hidden"></div>
+    </div>
+
+    <!-- 新建决策弹窗 -->
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div class="modal">
+            <h3 class="modal-title">新建决策</h3>
+            <input id="modal-input" class="input" type="text" placeholder="决策标题（如：选 offer）"/>
+            <div class="modal-actions">
+                <button id="modal-cancel" class="btn btn-ghost">取消</button>
+                <button id="modal-confirm" class="btn btn-primary">创建</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI 设置弹窗 -->
+    <div id="settings-overlay" class="modal-overlay hidden">
+        <div class="modal">
+            <h3 class="modal-title">AI 设置</h3>
+            <div class="settings-form">
+                <label class="form-label">API 接入地址</label>
+                <input id="settings-base-url" class="input" type="text" placeholder="https://api.deepseek.com"/>
+                <label class="form-label">API Key</label>
+                <input id="settings-api-key" class="input" type="password" placeholder="sk-..."/>
+                <label class="form-label">模型名称</label>
+                <input id="settings-model" class="input" type="text" placeholder="deepseek-chat"/>
+                <p class="form-hint">API Key 仅存储在本地，不会上传至任何服务器。</p>
+            </div>
+            <div id="settings-test-result" class="settings-test-result hidden"></div>
+            <div class="modal-actions">
+                <button id="settings-cancel" class="btn btn-ghost">取消</button>
+                <button id="settings-test" class="btn btn-secondary">测试连接</button>
+                <button id="settings-save" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="./src/main.js" type="module"></script>
+</body>
+</html>

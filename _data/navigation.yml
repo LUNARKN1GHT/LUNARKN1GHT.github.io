@@ -25,6 +25,11 @@ main:
     en_title: "Code"
     en_url: /en/code/
 
+  - title: "工具"
+    url: /tools/
+    en_title: "Tools"
+    en_url: /tools/
+
   - title: "链接"
     url: /links/
     en_title: "Links"
