@@ -14,6 +14,30 @@ course-related exercises, and small personal projects.
 All source code is publicly available in my GitHub repositories.  
 Discussions and feedback are always welcome.
 
+## DecisionHelper & DecisionHelper-Go
+
+### Motivation
+
+This project was born out of a moment of decision fatigue. I tend to overthink choices — when every option has its own pros and cons, it's easy to get caught in loops, always hoping to have it all. Of course, that's rarely possible.
+
+I tried asking an LLM for help. But the experience left me unconvinced. My guess is that our preferences and emotions are encoded in the way we phrase things, and LLMs are very good at picking up on those signals and reinforcing them. The further the conversation went, the more it felt like I was being told what I wanted to hear — not what I needed to think through. That wasn't helpful.
+
+So I wondered: what if I scored each option across multiple dimensions, assigned weights, and let the numbers do the talking? I thought I had invented something — turns out it's a well-established method called a *decision matrix*, widely used in business and project management. Since I couldn't find a lightweight tool I liked, I built one myself.
+
+During development, I integrated [DeepSeek](https://www.deepseek.com) into the workflow, mainly for two things: helping users brainstorm evaluation dimensions, and interpreting the final results.
+
+A word of caution though: a scoring matrix is a tool for when you're genuinely undecided. If you already know what you want — trust that feeling.
+
+### Overview
+
+A lightweight decision-support tool, Vibe Coded with [Claude](https://claude.ai/). I contributed the idea, scope, and direction.
+
+- Users define options, scoring dimensions, and weights; the program computes a weighted score and surfaces a recommendation
+- LLM integration assists with dimension brainstorming and result interpretation
+- Originally built in Python, later rewritten in Go for a lighter and more portable binary
+
+🔗 **Repository**: [DecisionHelper](https://github.com/LUNARKN1GHT/DecisionHelper) · [DecisionHelper-Go](https://github.com/LUNARKN1GHT/DecisionHelper-Go)
+
 ## Quant-Lab
 
 A personal quantitative research platform for Chinese A-share markets, covering the full pipeline from data acquisition to factor research, strategy backtesting, risk analysis, and visualization.
