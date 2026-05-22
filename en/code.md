@@ -38,6 +38,18 @@ A lightweight decision-support tool, Vibe Coded with [Claude](https://claude.ai/
 
 🔗 **Repository**: [DecisionHelper](https://github.com/LUNARKN1GHT/DecisionHelper) · [DecisionHelper-Go](https://github.com/LUNARKN1GHT/DecisionHelper-Go)
 
+## PaperMind
+
+An automated paper-note Agent: feed it a paper, get back a structured Markdown note filled in according to your own template.
+
+- Accepts local PDFs, arXiv IDs/URLs, DOIs, or plain paper titles
+- Fetches the full text automatically and uses DeepSeek LLM to fill every `{{placeholder}}` defined in `template.md`
+- Supports batch processing with configurable concurrency (default: 4 threads)
+- Downloaded PDFs are cached locally — re-running the same input skips the network round-trip
+- Tech stack: Python · DeepSeek API
+
+🔗 **Repository**: [PaperMind](https://github.com/LUNARKN1GHT/PaperMind)
+
 ## Quant-Lab
 
 A personal quantitative research platform for Chinese A-share markets, covering the full pipeline from data acquisition to factor research, strategy backtesting, risk analysis, and visualization.

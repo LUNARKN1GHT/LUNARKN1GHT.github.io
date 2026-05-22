@@ -36,6 +36,18 @@ toc: true
 
 🔗 **项目仓库**：[DecisionHelper](https://github.com/LUNARKN1GHT/DecisionHelper) · [DecisionHelper-Go](https://github.com/LUNARKN1GHT/DecisionHelper-Go)
 
+## PaperMind
+
+论文笔记自动化 Agent，输入一篇论文，输出按自定义模板填写好的结构化 Markdown 笔记。
+
+- 支持多种输入形式：本地 PDF、arXiv ID/链接、DOI、论文标题
+- 自动获取全文，调用 DeepSeek LLM 按 `template.md` 中定义的占位符逐字段填写
+- 支持批量处理，默认 4 线程并发，可自定义并发数
+- 下载的 PDF 自动缓存至本地，相同输入重跑无需重复联网
+- 技术栈：Python · DeepSeek API
+
+🔗 **项目仓库**：[PaperMind](https://github.com/LUNARKN1GHT/PaperMind)
+
 ## Quant-Lab
 
 个人量化研究平台，面向 A 股市场，覆盖数据获取、因子研究、策略回测、风险分析与可视化看板的完整链路。
