@@ -6,6 +6,7 @@ lang: en
 ref: about
 author_profile: true
 toc: true
+toc_sticky: true
 ---
 
 I am currently an undergraduate student in **Statistics** at the **School of Management, University of Science and

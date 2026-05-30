@@ -6,6 +6,7 @@ lang: zh
 ref: notes
 author_profile: true # 启用作者资料侧边栏
 toc: true # 启用页面目录
+toc_sticky: true
 ---
 
 本页面汇集我的学习笔记与心得，记录我在各个领域的探索与思考。点击右侧可以跳转到相关内容。

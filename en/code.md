@@ -6,6 +6,7 @@ lang: en
 ref: code
 author_profile: true
 toc: true
+toc_sticky: true
 ---
 
 This page presents code projects I have developed during my studies and practical exploration, including templates,

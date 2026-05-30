@@ -6,6 +6,7 @@ lang: zh
 ref: code
 author_profile: true # 启用作者资料侧边栏
 toc: true
+toc_sticky: true
 ---
 
 本页面用于展示我在学习与实践过程中编写的一些代码项目，包括模板、课程练习以及个人小型项目。

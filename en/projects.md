@@ -6,6 +6,7 @@ lang: en
 ref: projects
 author_profile: true
 toc: true
+toc_sticky: true
 ---
 
 During my studies, I have participated in several projects, developing both technical skills and teamwork experience.

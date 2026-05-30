@@ -6,6 +6,7 @@ lang: en
 ref: notes
 author_profile: true
 toc: true
+toc_sticky: true
 ---
 
 This page collects my study notes and reflections, documenting my exploration and thinking across various topics.  

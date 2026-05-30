@@ -6,6 +6,7 @@ lang: zh
 ref: about
 author_profile: true # 启用作者资料侧边栏
 toc: true # 启用目录
+toc_sticky: true
 ---
 
 我目前就读于中国科学技术大学管理学院统计系，主修统计学。我的兴趣集中在统计学习、人工智能与量化分析等方向。

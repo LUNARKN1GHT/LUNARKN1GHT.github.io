@@ -6,6 +6,7 @@ lang: zh
 ref: projects
 author_profile: true # 启用作者资料侧边栏
 toc: true # 启用目录
+toc_sticky: true
 ---
 
 学习期间，我参与了多个项目，在实践中锻炼技术能力与团队协作能力。
