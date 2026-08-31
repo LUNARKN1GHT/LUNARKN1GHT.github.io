@@ -21,6 +21,10 @@ Sep. 2024 – Present
 
 - Core coursework: Probability Theory, Mathematical Analysis, Linear Algebra, etc.
 
+## Teaching
+
+- Teaching assistant for *Mathematical Foundations and Algorithms for Artificial Intelligence A* ([course homepage](/ta/)).
+
 ## Research Interests
 
 My interests lie at the intersection of **statistics and computer science**, with a particular emphasis on AI-related
