@@ -17,7 +17,8 @@
       {% assign reading_labels = site.data.ui-text[reading_lang] | default: site.data.ui-text[site.locale] %}
       {% assign reading_text = document.content | markdownify | strip_html %}
       {% if reading_lang == "zh" %}
-        {% assign reading_units = reading_text | number_of_words: "cjk" %}
+        {% capture reading_units %}{% include reading-units-zh.html text=reading_text %}{% endcapture %}
+        {% assign reading_units = reading_units | plus: 0 %}
         {% assign reading_rate = document.characters_per_minute | default: site.characters_per_minute | default: 400 %}
       {% else %}
         {% assign reading_units = reading_text | number_of_words %}

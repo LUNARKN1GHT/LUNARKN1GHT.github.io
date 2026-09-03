@@ -1,0 +1,30 @@
+{%- comment -%}
+GitHub Pages uses Jekyll 3, whose number_of_words filter has no CJK mode.
+Count Han characters individually and pass the remaining text to the supported
+one-argument filter, keeping mixed-in English words as single reading units.
+The ranges cover unified ideographs, Extension A, compatibility ideographs,
+and supplementary ideographs. Insert spaces so adjacent Latin words stay apart.
+{%- endcomment -%}
+{%- assign han_count = 0 -%}
+{%- assign characters = include.text | split: "" -%}
+{%- capture other_text -%}
+  {%- for character in characters -%}
+    {%- if character >= "一" and character <= "鿿" -%}
+      {%- assign han_count = han_count | plus: 1 -%}
+      {{- " " -}}
+    {%- elsif character >= "㐀" and character <= "䶿" -%}
+      {%- assign han_count = han_count | plus: 1 -%}
+      {{- " " -}}
+    {%- elsif character >= "豈" and character <= "﫿" -%}
+      {%- assign han_count = han_count | plus: 1 -%}
+      {{- " " -}}
+    {%- elsif character >= "𠀀" and character <= "𲎯" -%}
+      {%- assign han_count = han_count | plus: 1 -%}
+      {{- " " -}}
+    {%- else -%}
+      {{- character -}}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign other_count = other_text | number_of_words -%}
+{{- han_count | plus: other_count -}}
