@@ -1,0 +1,25 @@
+{% comment %}
+Both language archives use the same body because PaginateV2's generated pages
+share a Liquid template cache key. Resolve language from the current page.
+{% endcomment %}
+{% if page.lang == "en" %}
+  <p>This is my blog, where I record thoughts and reflections on my studies and daily life.</p>
+{% else %}
+  <p>这里是我的博客，记录学习与思考。</p>
+{% endif %}
+
+{% assign blog_posts = paginator.posts | default: site.posts | where: "lang", page.lang %}
+{% if blog_posts.size > 0 %}
+  <div class="entries-{{ entries_layout | default: 'list' }}">
+    {% for post in blog_posts %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </div>
+  {% if paginator %}{% include paginator.html %}{% endif %}
+{% else %}
+  {% if page.lang == "en" %}
+    <p>No English blog at present.</p>
+  {% else %}
+    <p>暂时没有中文博文。</p>
+  {% endif %}
+{% endif %}
