@@ -32,6 +32,70 @@ body {
   line-height: 1.8;
 }
 
+/* 博文目录：轻量文字导航，仅强调当前章节 */
+.toc--minimal {
+  font-family: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+
+  .nav__title {
+    margin: 0;
+    padding: 0.25rem 0.5rem 0.65rem;
+    color: $muted-text-color;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: 0.65rem;
+    font-weight: 500;
+
+    i {
+      display: none;
+    }
+  }
+
+  .toc__menu {
+    font-size: 0.65rem;
+
+    ul {
+      margin: 0;
+      padding-inline-start: 0.65rem;
+    }
+
+    > li > a {
+      font-weight: 500;
+    }
+
+    a {
+      padding: 0.35rem 0.5rem;
+      color: $muted-text-color;
+      background: transparent;
+      border: 0;
+      font-weight: 400;
+      line-height: 1.6;
+
+      &:hover {
+        color: $text-color;
+        text-decoration: none;
+      }
+
+      &:focus-visible {
+        outline: 2px solid $primary-color;
+        outline-offset: 2px;
+      }
+    }
+
+    // Select only the current link, not every child of an active section.
+    li.active > a {
+      color: $primary-color;
+      background: transparent;
+      font-weight: 600;
+    }
+  }
+}
+
 /* 标题加粗 */
 .page__title,
 .site-title {
