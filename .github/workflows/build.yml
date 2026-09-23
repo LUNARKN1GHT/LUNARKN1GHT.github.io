@@ -56,12 +56,12 @@ jobs:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --destination _site
 
-      - name: Build notes under /notes
+      - name: Build USTC-AI-Notes collection
         run: |
           python .build/notes/scripts/prepare_docs.py
           python -m mkdocs build \
             --config-file .build/notes/mkdocs.yml \
-            --site-dir "${{ github.workspace }}/_site/notes"
+            --site-dir "${{ github.workspace }}/_site/notes/USTC-AI-Notes"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

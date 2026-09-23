@@ -9,10 +9,15 @@ toc: true
 toc_sticky: true
 ---
 
-This page collects my study notes and reflections, documenting my exploration and thinking across various topics.  
-You may use the navigation on the right to jump to specific content.
+This page collects my study notes and reflections across different topics.
 
 These notes may contain inaccuracies or mistakes.  
 I would greatly appreciate any feedback or discussion—feel free to contact me.
 
-[Open the course notes](/notes/){: .btn .btn--primary }
+## Course Notes
+
+### [Mathematical Principles and Algorithms of AI · USTC-AI-Notes](/notes/USTC-AI-Notes/)
+
+Notes covering mathematical foundations, machine learning, neural networks, graph neural networks, Transformers, self-supervised learning, and reinforcement learning.
+
+[Open the course notes](/notes/USTC-AI-Notes/){: .btn .btn--primary }
