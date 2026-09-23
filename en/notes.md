@@ -14,3 +14,5 @@ You may use the navigation on the right to jump to specific content.
 
 These notes may contain inaccuracies or mistakes.  
 I would greatly appreciate any feedback or discussion—feel free to contact me.
+
+[Open the course notes](/notes/){: .btn .btn--primary }
