@@ -1,8 +1,11 @@
 ---
 title: "允许爱情消失"
-permalink: /notes/allow-love-to-disappear/
+date: 2026-09-29
+permalink: /blogs/allow-love-to-disappear/
 layout: single
 lang: zh
+categories: [阅读]
+tags: [读后感, 亲密关系]
 author_profile: true
 toc: true
 toc_sticky: true

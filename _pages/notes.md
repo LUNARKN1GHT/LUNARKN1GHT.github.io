@@ -20,11 +20,3 @@ toc_sticky: true
 从数学基础出发，逐步整理机器学习、神经网络、图神经网络、Transformer、自监督学习和强化学习。
 
 [开始阅读](/notes/USTC-AI-Notes/){: .btn .btn--primary }
-
-## 读书笔记
-
-### [允许爱情消失](/notes/allow-love-to-disappear/)
-
-读杜素娟《允许爱情消失》：爱情可以珍贵，却不必成为人生的必需品。比抓住一段关系更重要的，是在关系中保持完整、独立与自爱。
-
-[阅读笔记](/notes/allow-love-to-disappear/){: .btn .btn--primary }
