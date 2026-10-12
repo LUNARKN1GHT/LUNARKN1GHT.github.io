@@ -14,6 +14,7 @@ technologies related to quantitative trading.
 
 ## News
 
+- **October 2026**: Gave a talk at the Jiangxi freshmen meetup on learning in general computing courses and using AI. Read the [talk and presentation slides](/en/blogs/jiangxi-freshmen-2026/).
 - **August 2026**: Serving as a teaching assistant for *Mathematical Foundations and Algorithms for Artificial Intelligence A*, and built a [course homepage](/ta/).
 - **May 2026**: Built PaperMind, an automated paper-note Agent that accepts PDF/arXiv/DOI inputs and uses an LLM to fill a custom template with structured notes.
 - **May 2026**: Built the DecisionHelper series — a decision matrix tool Vibe Coded with Claude, later rewritten in Go.
